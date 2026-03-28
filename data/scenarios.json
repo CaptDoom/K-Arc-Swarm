@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fuel_price_hike",
+    "name": "Fuel Price Increase",
+    "description": "Increase fuel prices by 20% across Delhi.",
+    "domain": "economic",
+    "parameters": {
+      "price_change": 0.2,
+      "target_groups": ["driver", "service", "business"],
+      "sentiment_shock": -0.18,
+      "trust_shift": -0.08,
+      "economic_stress": 0.12
+    }
+  },
+  {
+    "id": "universal_basic_income",
+    "name": "Universal Basic Income",
+    "description": "Provide a monthly income support intervention.",
+    "domain": "economic",
+    "parameters": {
+      "cash_support": 0.15,
+      "target_groups": ["student", "service", "driver", "teacher"],
+      "sentiment_shock": 0.16,
+      "trust_shift": 0.12,
+      "economic_stress": -0.1
+    }
+  },
+  {
+    "id": "education_reform",
+    "name": "Education Reform",
+    "description": "Expand school quality and public learning access.",
+    "domain": "social",
+    "parameters": {
+      "service_quality": 0.22,
+      "target_groups": ["student", "teacher"],
+      "sentiment_shock": 0.11,
+      "trust_shift": 0.09,
+      "economic_stress": -0.03
+    }
+  }
+]

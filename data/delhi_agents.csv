@@ -1,0 +1,6 @@
+agent_id,age_group,income_level,education,occupation,lat,lng,political_leaning,economic_views,social_views,risk_tolerance
+1,18-25,low,secondary,student,28.6139,77.2090,-0.2,-0.1,0.3,0.7
+2,26-35,medium,graduate,service,28.5355,77.3910,0.1,0.2,0.1,0.4
+3,36-50,low,secondary,driver,28.4595,77.0266,-0.4,-0.3,0.0,0.6
+4,36-50,high,postgraduate,business,28.7041,77.1025,0.3,0.5,-0.1,0.3
+5,51+,medium,graduate,teacher,28.4089,77.3178,0.0,0.1,0.4,0.2
